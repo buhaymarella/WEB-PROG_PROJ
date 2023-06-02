@@ -95,7 +95,7 @@
                 </button>
                 <button type="button" class="btn btn-outline-success col-sm-5 btn__draft" id="btn-draft">
                     SAVE AS DRAFT
-                </button>
+                </button><br>
             </div>
     </form>
 

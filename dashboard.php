@@ -15,16 +15,16 @@
     <nav class="header__nav-container container-fluid nav-bar p-2"> <!-- Main Nav -->
         <ul class="container d-flex flex-row gap-4 pt-2 justify-content-end">
             <li class="nav-item">
-                <a href="index.html" class="nav__link text-white text-decoration-none">Home</a>
+                <a href="dashboard.php" class="nav__link text-white text-decoration-none">Home</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav__link text-white text-decoration-none">Profile</a>
             </li>
             <li class="nav-item">
-                <a href="login.html" class="nav__link text-white text-decoration-none">Login</a>
+                <a href="login.php" class="nav__link text-white text-decoration-none">Login</a>
             </li>
             <li class="nav-item">
-                <a href="signup.html"class="nav__link text-white text-decoration-none" >Register</a>
+                <a href="register.php"class="nav__link text-white text-decoration-none" >Register</a>
             </li>
         </ul>
     </nav>
@@ -133,7 +133,7 @@
                         </div>
                     </header>
                     <h1>
-                        HI
+                        
                     </h1>
                 </div>
                 <div class="small__container col-sm-4 mx-2">

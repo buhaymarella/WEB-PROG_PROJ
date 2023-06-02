@@ -22,29 +22,13 @@ function navigateToPage() {
     return false;
 }
 
+//for print page
+function printDiv() {
+    var printContents = document.getElementById("permit").innerHTML;
+    var originalContents = document.body.innerHTML;
 
-document.getElementById('treeQuantity').addEventListener('input', function() {
-    var treeQuantity = parseInt(this.value);
-    var treeInputsContainer = document.getElementById('treeInputsContainer');
-    
-    // Clear existing input fields
-    treeInputsContainer.innerHTML = '';
-    
-    // Generate new input fields based on quantity
-    for (var i = 0; i < treeQuantity; i++) {
-    var inputLabel = document.createElement('label');
-    inputLabel.textContent = 'Tree ' + (i + 1) + ' Species:';
-    
-    var inputField = document.createElement('input');
-    inputField.type = 'text';
-    inputField.name = 'treeSpecies[]'; // Use array notation for multiple inputs
-    
-    var lineBreak = document.createElement('br');
-    
-    treeInputsContainer.appendChild(inputLabel);
-    treeInputsContainer.appendChild(inputField);
-    treeInputsContainer.appendChild(lineBreak);
-    }
-});
-
+    document.body.innerHTML = printContents;
+    window.print();
+    document.body.innerHTML = originalContents;
+}
     
