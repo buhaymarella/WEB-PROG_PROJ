@@ -82,17 +82,19 @@
             </div>
         </div>
     </nav><br>
-    <div class="container sec__nav-container p-1 pt-0" style="background-color: var(--primary-color); margin-bottom: -3%;">
-        <div class="row mt-3 mx-4">
-            <img src="images/permit.png" alt="" class="col-sm-1 mx-1 my-3 rounded float-start" style="width: 5rem; " >
-            <h2 class="h2 text-white col-sm-4 mt-4">Permit</h2>
-            <p class="text-white mt-1 mx-2">Apply Application Request</p>
-        </div>
-    </div>
-        <div class="container section-body pb-0 pt-5">
+        <div class="container section-body pb-0 pt-1">
             <div class="section-container mb-lg-5" >
                 <table class="table table-triped-columns table-bordered border-success text-center">
                     <thead> 
+                        <tr>
+                            <div class="container sec__nav-container p-1 pt-0 pb-5" style="background-color: var(--primary-color); margin-bottom: -3%;">
+                                <div class="row mt-3 mx-4">
+                                    <img src="images/permit.png" alt="" class="col-sm-1 mx-1 mt-3 mb-0 rounded float-start" style="width: 5rem; " >
+                                    <h2 class="h2 text-white col-sm-4 mt-4 mb-0">Permit</h2>
+                                    <p class="text-white mt-0 mb-0 pt-0 pb-2 mx-2">Apply Application Request</p>
+                                </div>
+                            </div>
+                        </tr>
                         <tr style="background-color: #B2DFDB">
                             <th scope="col" class="p-3">Type of Application</th>
                             <th scope="col" class="p-3 text-center">Date Issued</th>

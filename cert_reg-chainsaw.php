@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <title>Permit Page</title>
+    <title>CERTIFICATION OF REG (CHAINSAW) Page</title>
 </head>
 <body>
     <style>
@@ -115,18 +115,24 @@
     </nav><br>
     <div class="container-fluid border permit__container" id="permit" style=" color: #373737; width:816px; height:1248px; ">
         <header class=" container-fluid d-flex justify-content-start align-items-start row m-5 mt-3 mb-1">
-            <img src="images/logo.png" alt="logo" class="col-sm-1 mt-2" style="width: 12%">
-            <div class="col-sm-8 pt-2">
-                <p class="mb-0 sub-text">
-                    Republic of the Philippines
-                </p>
-                <p class="mt-0 mb-0 sub-text">
-                    DEPARTMENT OF ENVIRONMENT AND NATURAL RESOURCES
-                </p>
-                <p class="mb-0 mt-0 main-text">
-                    PENRO Marinduque
-                </p>
-            </div>  
+            <table class="table table-borderless m-0 p-0">
+                <tr>
+                    <td class="col-sm-1 mx-0 "><img src="images/logo.png" alt="logo" style="width:4rem;"></td>
+                    <td class="col-sm-7 pt-2 px-0 mx-0" style="background-color: transparent;">
+                        <div>
+                            <p class="mb-0 sub-text">
+                                Republic of the Philippines
+                            </p>
+                            <p class="mt-0 mb-0 sub-text">
+                                DEPARTMENT OF ENVIRONMENT AND NATURAL RESOURCES
+                            </p>
+                            <p class="mb-0 mt-0 main-text">
+                                PENRO Marinduque
+                            </p>
+                        </div> 
+                    </td>
+                </tr>
+            </table>
         </header>
         <hr class="container mt-0 mb-0" style="height: 3px; background-color: #B34C4C; border: none; opacity:100%;">
         <div class="container text-center mt-2 mb-0">
@@ -203,7 +209,7 @@
             </div>
         </div>
         <footer>
-            <p class="text-center footer-text mt-4">Capitol Compound, Barangay Bangbangalon, Boac, Marinduque<br>
+            <p class="text-center footer-text mt-5">Capitol Compound, Barangay Bangbangalon, Boac, Marinduque<br>
                 Telephone Nos.: (042) 332-1490/(042) 332-0927/(042) 332-1913<br>
                 Website: https://penromarinduque.gov.ph/<br>
                 Email: penromarinduque@denr.gov.ph</p>

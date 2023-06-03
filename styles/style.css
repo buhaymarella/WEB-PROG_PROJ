@@ -326,6 +326,9 @@ small{
     body, h1, h2, p {
         font-family: 'Times New Roman', Times, serif;
     }
+    td img{
+        width: 12%;
+    }
 
 }
 

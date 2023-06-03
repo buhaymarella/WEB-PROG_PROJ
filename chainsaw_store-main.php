@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Draft Page</title>
+    <title>Chainsaw Maintenance Page</title>
 </head>
 <body>
     <header class="header__main-container d-flex flex-column flex-sm-row container-fluid header">
@@ -46,97 +46,63 @@
                         </li>
             </ul>
     </nav><br>
-    <nav class="container sec__nav-container p-1" >
-        <div class="row mt-3 gap-5 mx-2">
-            <div class="col-1 mb-3">
-                <a href="draft_pg.html" class="nav-link text-white mx-2" style="opacity: 70%;">
-                    <div class="d-flex flex-column align-items-center">
-                    <img src="images/drafts.png" alt="draft" style="width: fit-content;">
-                    <span>Draft</span>
-                    </div>
-                </a>
-                </div>
-                <div class="col-1 mb-3">
-                <a href="#" class="nav-link text-white mx-2">
-                    <div class="d-flex flex-column align-items-center">
-                    <img src="images/notification.png" alt="notification" style="width: 2.5rem;">
-                    <span>Notification</span>
-                    </div>
-                </a>
-                </div>
-                <div class="col-1 mb-3">
-                <a href="#" class="nav-link text-white mx-2">
-                    <div class="d-flex flex-column align-items-center">
-                    <img src="images/profile.png" alt="profile" style="width: 2.5rem;">
-                    <span>Profile</span>
-                    </div>
-                </a>
-                </div>
-                <div class="col-1 mb-3">
-                <a href="permit_pg.html" class="nav-link text-white mx-2">
-                    <div class="d-flex flex-column align-items-center">
-                    <img src="images/permit.png" alt="permit" style="width: 2.5rem;">
-                    <span>Permit</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </nav><br>
-        <div class="container section-body pb-0 pt-0">
-            <div class="section-container mb-lg-5" >
+        <div class="container section-body pb-0 p-5 pt-1">
+            <div class="section-container mb-3" >
             <table class="table table-triped-columns table-bordered border-success text-center">
                     <thead> 
                         <tr>
-                            <div class="container sec__nav-container p-1 pt-0 pb-4" style="background-color: var(--primary-color); margin-bottom: -3%;">
-                                <div class="row mt-3 mx-4">
-                                    <img src="images/draft.png" alt="" class="col-sm-1 mx-1 my-3 rounded float-start" style="width: 5rem; " >
-                                    <h2 class="h2 text-white col-sm-4 mt-4 mb-0 pb-0">Drafts</h2>
-                                    <p class="text-white mt-0 pt-0 mx-2">Apply Application Request</p>
-                                </div>
+                            <div class="container sec__nav-container pt-0 pb-4" style="background-color: var(--primary-color); margin-bottom: -3%;">
+                                    <h2 class="h2 text-white mt-4 mb-0 p-5 px-3 py-4">Chainsaw Store Maintenance</h2>
                             </div>
                         </tr>
-                        <tr style="background-color: #B2DFDB">
-                            <th scope="col" class="p-3">Type of Application</th>
-                            <th scope="col" class="p-3 text-center">Date Issued</th>
+                        <tr style="background-color: #B2DFDB; color: var(--primary-color);">
+                            <th scope="col" class="p-3">Name of Store</th>
+                            <th scope="col" class="p-3">Owner</th>
+                            <th scope="col" class="p-3 text-center">Address</th>
                             <th scope="col" class="p-3 text-center">Action</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Chainsaw Registration Permit</td>
-                            <td>23/06/23- 10:05</td>
-                            <td colspan="2" class="text-center">
-                                <button class="btn btn-success col" id="btn-edit" >Edit</button>
+                            <td>Chainsaw Store name</td>
+                            <td>Owner Name</td>
+                            <td>Street 1, Marinduque</td>
+                            <td  class="text-center">
+                                <button class="btn btn-success col" id="btn-edit" >Edit Store</button>
                                 <button class="btn btn-danger col" id="btn-del">Delete</button>
                             </td>
                         </tr>
                         <tr>
-                            <td>Chainsaw Registration Permit</td>
-                            <td>23/06/23- 10:05</td>
+                            <td>Chainsaw Store name</td>
+                            <td>Owner Name</td>
+                            <td>Street 1, Marinduque</td>
                             <td colspan="2" class="text-center">
-                                <button class="btn btn-success col" id="btn-edit">Edit</button>
-                                <button class="btn btn-danger col" id="btn-del" >Delete</button>
+                                <button class="btn btn-success col" id="btn-edit" >Edit Store</button>
+                                <button class="btn btn-danger col" id="btn-del">Delete</button>
                             </td>
                         </tr>
                         <tr>
-                            <td>Chainsaw Registration Permit</td>
-                            <td>23/06/23- 10:05</td>
+                            <td>Chainsaw Store name</td>
+                            <td>Owner Name</td>
+                            <td>Street 1, Marinduque</td>
                             <td colspan="2" class="text-center">
-                                <button class="btn btn-success " id="btn-edit" >Edit</button>
-                                <button class="btn btn-danger" id="btn-del" >Delete</button>
+                                <button class="btn btn-success col" id="btn-edit" >Edit Store</button>
+                                <button class="btn btn-danger col" id="btn-del">Delete</button>
                             </td>
                         </tr>
                         <tr>
-                            <td>Chainsaw Registration Permit</td>
-                            <td>23/06/23- 10:05</td>
+                            <td>Chainsaw Store name</td>
+                            <td>Owner Name</td>
+                            <td>Street 1, Marinduque</td>
                             <td colspan="2" class="text-center">
-                                <button class="btn btn-success col" id="btn-edit" >Edit</button>
+                                <button class="btn btn-success col" id="btn-edit" >Edit Store</button>
                                 <button class="btn btn-danger col" id="btn-del">Delete</button>
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+            <button class="btn btn-success text-center mb-5 mt-0 ">+ Add Store</button>
         </div>
 </body>
 </html>
